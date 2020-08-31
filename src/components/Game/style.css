@@ -1,0 +1,55 @@
+/* Game Title */
+#gameTitle {
+  color: #4a2621;
+
+}
+
+.game {
+  border-radius: 4px;
+  margin: 2.5%;
+}
+
+/* Height, Width, Mines labels */
+#gameSettings {
+  margin-right: 4px;
+  color: #4a2621;
+}
+
+/* Height, Width, Mines labels input */
+#gameInput {
+background-color: rgba(255, 255, 255, 0.658);
+border-radius: 4px;
+border: 1px solid #7a433c;
+color: #4a2621;
+margin-right: 4px;
+}
+
+/* Game settings */
+.control-buttons {
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #ffffff3a;
+  border-radius: 4px;
+  width: 50%;
+  margin: 50px auto;
+  box-shadow: 0 0 16px 0 #6a414246;
+}
+
+/* Restart game */
+.restartBtn {
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-family: inherit;
+  border: none;
+  background-color: #588823;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.restartBtn:hover,
+.restartBtn:focus,
+.restartBtn:active,
+.restartBtn:visited {
+  border: none;
+  background-color: #49721c;
+}

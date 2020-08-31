@@ -1,0 +1,39 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff3a;
+  border-radius: 4px;
+  width: 98%;
+  margin: 50px auto;
+  box-shadow: 0 0 16px 0 #6a414246;
+}
+
+
+/* Cell grid */ 
+.grid {
+  margin: 32px 0px;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+
+.mines-count {
+  padding: 7px 12px;
+  margin-top: 40px;
+  font-weight: 400;
+  color: white;
+  border-radius: 4px;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #f19128;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.row:not(last-child) {
+  margin-bottom: 5px;
+}

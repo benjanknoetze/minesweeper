@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+body {
+  margin: 0px;
+  background: url("../src/pics/victor-garcia-Nnc1ynV1WLM-unsplash.jpg");
+}
+
+.app {
+  font-family: 'Do Hyeon', sans-serif;
+  height: 100vh;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
